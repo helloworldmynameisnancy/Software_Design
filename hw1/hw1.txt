@@ -1,0 +1,50 @@
+Please keep all files related to a homework or an assignment within the appropriate directory. Files checked in outside of specific homework or assignment directory will not be reviewed or graded for that homework/assignment.
+
+Check in and modify files as many times as you like. You will not be able to modify the files after the deadline.
+
+You will work as a pair, both of you are responsible for the completed work in all assignments and homework. Reasonable effort is expected from each person. If you do not check in, you will not receive any scores. When pairing please switch who checks in so there is significant number of check in from each of you.
+
+The deadlines are strict, there will be no extensions. Don't email any code to Venkat or to the mailing list. Your last check in before the deadline will be graded. If your last check in breaks the code, both you and your pair will lose significant points.
+
+Please feel free to ask for frequent reviews. See the reviews/readme.txt file for details on how to ask for reviews.
+
+You can evolve the answers and solutions based on the reviews. Only the latest checkin at the time of review will be looked at. Also the final check in will be the only one graded.
+
+You are still responsible to successfully complete an homework or assignment even if your pair is a no-show. You can request to change pairs at any time and if there is another person in the class willing to pair with you we can make the switch.
+
+A lot of help will be provided in this course, but you have to start early and ask for help along the way.                                          
+
+Please read the academic honesty policy posted on the course mailing list.                   
+
+The above details apply to all homework and assignments in this course.                   
+
+Now to homework #1.
+==============================================================================
+HW1: Due 11:59PM CT January 31
+
+1. Inheritance is a powerful concept, but is also one of the most misused concepts in OOP. Give an example where inheritance is a reasonable choice.
+Explain why you think it is a good choice in your example. Then give an example where delegation rather than inheritance is a better choice.
+Again explain why you think it is a good choice in your example. Feel free to use any language you like for your examples.
+
+Say you're building a display tool for geometric shapes and you want to display shapes like Squares, Rectangles, Circles, and Triangles. Instead of writing an entire, distinct class for each shape, you could write a general Shape class and have subclasses that inherit the common attributes and functions of the Shape class.
+
+Inheritance is a good choice for this example, because we can unify these subclasses under a single Shape base class, while allowing each shape to retain its unique characteristics within its specific class. Thus, shared behaviors like drawShape() or moveShape() can be defined in the Shape class, while behaviors like calculating area and perimeter can be within individual subclasses since the formulas are different. This means any Rectangle, Circle, and Square can be substituted where a Shape is expected. Additionally, if new shapes were added in the future like a Triangle, then the existing code does not need to change entirely, making the code extensible.
+
+Now, let's consider an example where delegation is better than inheritance. You may have a cabinet class that has a Secretary of Defense and Secretary of Education. Then, you can have a president class that delegates work to the Secretary of Defense and Secretary of Education.  
+
+Delegation is a better choice than inheritance for this example, because if inheritance were used, you would need to create and destroy several instances of a president, one for each cabinet worker. However, with delegation, you are able to have one president instance and change who that president assigns tasks to. In addition, inheritance would lead to the president inheriting unrelated responsibilities.
+
+2. Collectively as a team, mention some of the design smells you have seen in code you have either written or looked at (written by someone else on projects you have worked on). Mention the smell, write a short description about it, and write the consequences (the drawbacks) of that smell. Please list at least five smells.
+
+During my (Nancy) last internship, I reviewed scripts for tools created by my team and noticed that many paths were hard-coded. This not only made my life harder, as I had to manually update those paths to run the script, but it also created difficulties for non-technical team members, who couldn’t easily run the script on their machine. Additionally, it added extra time for anyone else running the script, because they had to manually change the paths themselves.
+
+In my (Nancy) Data Structures class, I remember writing code until things worked, without thinking much about the structure. This often led to a large function that handled too many tasks, and whenever this function would break or have a bug, I had to spend so much time sifting through the entire code trying to find the issue. Writing test cases was also difficult because I had to make sure that the test cases covered all potential scenarios, but this often led to bugs being overlooked. 
+
+I (Nancy) also worked on a script that batch inserted user data into SQL Server during my first internship. As this was my first time working on a script like this, I ended up writing the function responsible for inserting the data to accept too many parameters. This led to the function being really hard to read and increased the risk of mistakes, because it was easy to forget or misorder one of the parameters.
+
+Back when I (Christian) was working on Lambda, a core bit of our functionality for each Lambda invoke was centered around a state machine. So every invocation had a "in_queue", "processing", and "completed" state that had their own set of tests for state transitions, and part of my job was to introduce a new state for when my team's Lambdas were being processed by another team's infra. I didn't really understand testing at the time, so I reimplemented a bunch of the existing tests end to end (including preexisting failure states that my code didn't affect) with my specific functionality on top, instead of just relying on the existing failure tests. Like there was an asyncInvokeDDBUpdateFails test already in place, and I made a very minimally modified asyncInvokeDDBUpdateFails_CJ test that didn't change much. Both tests would've successfully failed with or without my changes, meaning I was writing redundant tests.
+
+I (Christian) have a wrapper for Spotify API data for one of my microservices, and right now I'm reworking it to use getters and setters instead of just fields so that I can add logic to the Album object that checks for malformed data (sometimes the Date is missing the day/month and I need to format it differently for my frontend to ingest it correctly). Because I was using purely public fields to access object data instead of wrapping private fields, I had to add a bunch of logic to my ingestion functions to check for incorrect data instead of having it handled in the object. There's levels to this though, lots of times it's ok to have things in public fields.
+
+Total[10]: 10
+

@@ -1,0 +1,78 @@
+HW2 Due 11:59PM CT April 4
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Please use as many reviews as you possibly can.***
+
+Please respond only in this file.
+
+1. How does writing long methods affect code and design quality?
+
+Writing long methods decrease readability and maintainability. Long methods are much harder to interpret and any change at one part of that method can affect another part.
+
+Additionally, there’s a higher cognitive load when it comes to long methods. It’s more difficult for programmers to understand and reason about the code logic, especially when debugging or making changes. 
+
+There’s also an increase in code complexity, which reduces flexibility and leads to tightly coupled code. High coupling makes the code harder to modify since changes in one part of the code can impact multiple dependencies.
+
+It also makes it more difficult to write unit tests. It’s hard to write tests covering each part of a long method’s logic, often leading to incomplete code coverage and possible bugs.
+
+Code reusability tends to be more difficult with longer methods. They often lack modularity and are too specific to be reused elsewhere. Along with that, if a programmer were to copy the method and make some changes for it to work in a specific spot, that would be violating the DRY principle, OCP, and waste development time.
+
+SRP is also another principle that can be violated with long methods. Ideally, methods should focus on one task but long methods usually couple multiple tasks together.
+
+On that note, SLAP gets violated with longer methods as well, because they usually contain multiple levels of abstraction. This forces the reader to switch between high-level logic and low-level implementation, making it hard to focus on the purpose of the method rather than the implementation.
+
+Overall, long methods negatively impact code and design quality, usually violating the SOLID principles. With poor code and design quality, code is difficult to maintain, extend, and test.
+
+2. What are the main disadvantages and consequences of writing long methods?
+
+Decreased maintainability is one of the main consequences of writing long methods. If a programmer packs multiple tasks into one method, modifying the code becomes risky. They may need to change multiple parts or risk breaking the entire program. Thus, the code becomes rigid, making programmers hesitant to modify the methods due to possibly introducing conflicts or unintended bugs.
+
+There’s also an increase in cognitive load, because programmers have to track multiple logic flows, dependencies, and different levels of abstractions. This makes it more challenging to understand and reason about the code.
+
+The higher risk of defects is another main disadvantage of long methods. Creating unit tests becomes harder with the amount of logic in one method, so full test coverage is difficult to achieve and bugs often go unnoticed. 
+
+Debugging then becomes more difficult. Programmers have to sift through large chunks of code, and the violation of SRP makes narrowing the issue down to one cause challenging and time-consuming.
+
+Additionally new developers often struggle to understand long and complex methods, slowing down their onboarding and reducing productivity. They have to spend extra time trying to understand the code instead of focusing on contributing to the team effectively. This similar reason affects knowledge transfers between the team members as well.
+
+All the time spent understanding, debugging, and making changes to the code ultimately increases development costs. There’s an increase in effort for maintenance, knowledge transfers, and code reviews that results in wasted time and resources.
+
+Taking all of these consequences into consideration, it becomes hard to scale, add future enhancements, and evolve your project efficiently with long methods in your code.
+
+3. What are some of the steps you can take to help programmers write shorter methods? 
+
+To write shorter methods, it’s best that we embrace test first development so that we can write just the necessary code for what’s expected, and maintain those expectations over time.
+
+Leveraging the SRP and SLAP principles so our methods do one focused thing at one level of abstraction instead of a million different things everywhere is also critical to writing shorter methods.
+
+You can also utilize language features to make your code less verbose but just as functional, like Python’s early returns or Swift’s nil coalescing operator. Implementing programming tweaks like early returns also allow you to reduce the raw number of lines you use while keeping functionality identical.
+
+Refactoring along the way as your codebase grows also helps to maintain methods with proper lengths. As you understand the problem space better + know the proper abstractions/shared functions you can make later down the line, it’s possible to make your methods shorter over time.
+
+If your team feels it's necessary during code reviews, you can also reach towards establishing a general guideline for how many lines of code is acceptable for a function (within reason of course.)
+
+Finally, there are some really good code quality tools that help you write shorter + less complex methods, like Radon and Pylint and ESLint.
+
+4. How do you know if a method is really short?
+
+A method can be described as short when it has a singular purpose during its execution. The method should accomplish one task/responsibility without combining multiple concerns.
+
+Your method is also really short when you’re certain you have minimal control flow changes. Too branch conditions or loops indicate a method that’s not straightforward or as short as it could be. This can be measured using cyclomatic complexity, where programs with lower cyclomatic complexity are easier to understand.
+
+Methods also shouldn’t call/calculate anything that’s not explicitly necessary for it to achieve its task (YAGNI), or rely too heavily on too many dependencies/parameters.
+
+Focus on the relationship between your methods, your naming conventions, and your tests as well. You should write focused methods that accomplish only what your tests are asking for, and name them appropriately so you can remember to keep your method focused on its single responsibility. 
+
+In general, evaluating your methods individually over time to make sure they follow SRP, SOLID, and SLAP principles is pretty essential to keeping your methods short.
+
+5. Have we used any tools to keep an eye on quality and complexity of code? Discuss your experience with such tools.
+
+We’ve used the Radon library and really appreciate its ability to provide insight into the complexity of our code. When the complexity exceeds certain thresholds, a warning will appear immediately upon running Paver. This instant feedback helps us refactor our code right away and maintain cleaner code.
+
+The Coverage library also ensures our unit tests are covering all parts of our code. Upon running Paver, we get instant feedback on if our code is working properly, making our program less susceptible to bugs and giving us confidence whenever we make a commit.
+
+When I worked at Google (Christian), there were a bunch of tools to make sure you implemented the proper boilerplate, had no circular dependencies, passed lint checks, and made sure you added unit/integration tests for any code you committed. 
+
+In my (Nancy) last internship, I used Pylint integrated into VSCode, which helped me manage function length, nesting depth, and cyclomatic complexity. It also allowed easy customization, including naming conventions for variables, functions, and classes. 
+
+Total[10]: 10

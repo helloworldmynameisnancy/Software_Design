@@ -1,0 +1,52 @@
+HW2 Due 11:59PM CT April 25
+
+***Please review the top part of ../hw1/hw1.txt***
+***There will be no reviews for this Homework***
+***Please remember to follow the things that were emphasized throughout this course on writing***
+***Please see the details in the requestReviews.txt file***
+
+Feel free to give answers collectively, and also if you want to, you can call out something specific to yourself different from your team member. Bring out your learnings and reflect on them here.
+
+1. What did you essentially learn in this course about design?
+
+Nancy:
+                                
+One of the most important takeaways from this course was learning to write tests before creating classes or methods. Tests really helped me develop ideas for how I wanted to structure my functions and allowed me to think about how I wanted things to be inputted and outputted.
+
+I was also able to experience how design principles really helped our code become more modular and maintainable. Especially in the beginning with SRP, OCP, and DRY, being able to practice where those principles went hand-in-hand with the assignments made their value clear and highly impactful.
+
+Additionally, learning how to code with intent, though easy to understand conceptually, was a bit harder for me to execute. However, it became easier as I had more and more practice. To add on to that, I’ve always been taught to add a lot of comments and realized that with this course it’s not always necessary if your code is already expressive.
+
+Having design patterns in my toolkit will also be very useful moving forward. Though I know not to go into any design with the intention of using any specific pattern, it’s still a great tool to use to solve common problems. 
+
+Ultimately, this class was a lot of unlearning old habits and replacing them with intentional, thoughtful practices. With each assignment, I felt more comfortable applying principles and patterns and with that was able to create more extensible, modular, and maintainable code.
+
+Christian:
+
+One of my core takeaways from the course was recognizing how critical test-driven development is for producing more accurate, concise, and understandable code. Writing good tests first significantly shaped our thinking about code structure, file organization, function signatures, and more, helping ensure the code was minimal yet functional. When I write new code for my projects, I make sure to set up a test suite first now.
+
+I also learned the importance of design patterns as useful guides rather than rigid templates to drop into a codebase whenever I think I can apply them. Rather, they should be implemented as my code evolves and gets refactored naturally.
+
+On the topic of design patterns, I learned what they are! Often enough I kinda just implemented singletons or factories or facades naturally without really knowing what they are/their ins and outs and never really called them anything.
+
+Another virtue I learnt is that even thoroughly tested code isn’t always good code (could be really unmaintainable, unclear, etc), and not even all tests are good. Overall I need to write small, maintainable tests that are easy to verify that ensure critical functionality.
+
+Although we didn't extensively use interfaces (python), I did learn their importance in structuring programs and clearly defining interactions between developers and users.
+
+Along with that I learned the specifics behind what makes a program maintainable and high quality in terms of incoming vs outgoing dependencies, cyclomatic complexity, etc.
+
+Overall the course was an excellent deep dive into how I can write better software for personal projects and industry work going forward!! I appreciate all the knowledge and insight.
+
+2. What are some of the general guidelines you would follow when designing?
+
+Start with a simple, high-level design that captures the overall structure of your code. When you start programming and implementing methods, you can evolve and adapt your design as needed. The initial design doesn’t need to define every specific method or object but instead should provide a clear starting point.
+
+Keeping a set of initial minimal tests to write first can help you guide your design in the right direction when you start, and as your codebase and features evolve, keeping those same initial tests passing at all times is helpful from a regression standpoint.
+
+Additionally, always keep design principles at the forefront of your mind when you’re designing your program. Anytime you add a new feature or add on to a function, take a moment to consider whether it aligns with SOLID principles. This habit can help prevent code smells and keep your program modular, extensible, and maintainable.
+
+Besides design principles, it’s also important to consider design patterns as potential solutions. However, don’t go into your program thinking that you need to apply a specific pattern from the start. Design patterns should not be forced, and they should emerge naturally as your code evolves.
+
+When you’re writing an early version of your program, you won’t get all of the details and externalities correct on the first go due to the customer-developer feedback loop. When you add new features or build upon existing ones, it’s critical to refactor any duplicated/unnecessary code, extract dependencies, and try to analyze your code to keep it high quality.
+
+Often enough the best documentation isn’t expressly written comments or a docs page. Rather, it’s code that has clear naming conventions, sensible file organization, expressive error handling, no magic numbers, and minimal control flow changes. Small functions with singular purposes that are clearly named are much preferable to comments.

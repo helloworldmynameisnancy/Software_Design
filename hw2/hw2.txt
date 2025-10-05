@@ -1,0 +1,44 @@
+HW2 Due 11:59PM CT February 7
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Please use as many reviews as you possibly can.***
+
+We'll not be writing any code in this homework, but only creating an initial design.
+
+Conway's Game of Life: <http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>.
+
+Don't worry about being right or wrong here (there is no one right design or solution to this problem).
+
+Don't Google for answers, it is more fun to arrive at your own solutions and see how your thought process evolves in discussions with your pair and the reviews.
+
+1. How would you design this program which is a GUI application? 
+
+Draw a UML diagram for your design and refer to it from the text here.
+
+Conway’s Game of Life is an automated game where cells on a grid evolve through rules, with each cell surviving, dying, or being born in the next generation based on its neighbors.
+
+To design this game, we created a structure that is separated into Interface and Logic. Interface handles the Display class, while Logic handles the Grid and Cell class. 
+
+In Interface, the Display is responsible for managing the Grid, getting its current matrix of cells, and updating the GUI to match it, as well as telling the Grid to update through the gameLoop function based on whether or not the game “isPlaying” or the user pressed “next step.” There are also functions to update text displaying the current generation and population count on the GUI.
+
+In Logic, the Grid is managed by the Display and includes the number of rows, columns, generation, and population of the game. It is primarily responsible for updating the state of the Cells based on neighbors of the cell during the current generation. 
+
+Additionally, the Cells are managed by the Grid and responsible for keeping track of their current states, as well as what they should be in newGeneration(), which is set by the Grid via setNextState(). It stores the future state of each cell in a field, which is then used in the updateCurrentState() method in the Cell to decide whether a cell will live, die, or be born in the next iteration. Both of these methods are called from the Grid, which will manage their state based on the cell’s neighbors.
+
+Please keep the diagram in a separate file. You may draw by hand and check in a photo of the diagram. Or you may use a good and check in the pdf.
+
+2. Discuss (not just mention) what programming language you would use.
+
+We will be using Python, because we both have prior internship and coursework experience with the programming language. 
+
+3. How do you plan to structure the program, what libraries would you use? Here we're looking for details about code directory structure, compilers, IDEs, tools, etc.---things that are at a higher level than the program and the programming language itself.
+
+In terms of how we’re planning to structure the project and use external tools/libraries, we’ll be using Subversion for VC with a pretty flat directory structure consisting of the files for grid.py, cell.py, display.py, and main.py for the program driver, and then a /testing/ folder for the test suite.
+
+The main GUI framework that we will be using is Dear PyGUI, as it has a very featured drawing API for making 2D games and visualizations, as well as buttons and display controls. It provides a solid foundation for making interactive desktop applications.
+
+We’ll mostly be developing using VSCode and won’t need a compiler since Python is JIT. For unit tests, we can utilize Pytest as it has great community support and is recommended for cleaner code/DX.
+
+
+Total[10]: 10
+
