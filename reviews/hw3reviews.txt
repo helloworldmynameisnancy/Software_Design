@@ -1,0 +1,79 @@
+[Reviewed 04/02/25 04:47 AM CDT]
+synopsis: you're done
+
+details:
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 04/01/25 04:50 AM CDT]
+synopsis: let's bring in more details
+
+details:
+
+1.
+
+would it have higher cognitive load?
+what about high coupling?
+
+2.
+
+Please see suggestions in files.
+
+does it get hard to understand?
+does it increase the cost of development?
+does it have higher chances of defects?
+does it becomes hard to debug?
+does it affect the team's ability to onboard new developers?
+
+3.
+
+Will use of Test First Development help?
+Should we apply SLAP?
+Will use of code quality tools help?
+
+4.
+
+measure the cyclomatic complexity?
+ensure there are good tests?
+Would good names help to check if the function is focused on its intent?
+
+5.
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/31/25 05:17 AM CDT]
+synopsis: anything more?
+
+details:
+
+1.
+
+anything more?
+
+2.
+
+anything more?
+
+3.
+
+anything more?
+
+4.
+
+anything more?
+
+5.
+
+anything more?
+
+------------------------------------------------------------------------------
+[Reviewed 03/30/25 05:32 AM CDT]
+synopsis: please see request requestReview.txt
+
+details:
+
+Please see the "For written parts in homework and assignment:" section in the requestReview.txt file.
+
+------------------------------------------------------------------------------

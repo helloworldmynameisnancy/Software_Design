@@ -1,0 +1,345 @@
+[Reviewed 02/17/25 12:18 PM PST]
+synopsis: you're done
+
+details:
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 02/16/25 21:30 PM PST]
+synopsis: let's write, in multiple short paragraphs
+
+details:
+
+Let's write in multiple short paragraphs. Let each paragraph focus on one concept, idea, thought, etc. Let's bring in details and depth to our learnings and reflections. Let's make observations, bring out experiences we gained. Let's articulate the depth of the concepts we were able to gain insights about.
+
+------------------------------------------------------------------------------
+[Reviewed 02/15/25 20:45 PM PST]
+synopsis: good so far
+
+details:
+
+Good so far. Coding part done. Let's focus on the questions in the assign1.txt file.
+
+------------------------------------------------------------------------------
+[Reviewed 02/15/25 15:28 PM PST]
+synopsis: Need to revisit the module install
+
+details:
+
+Instead of
+    sh('brew install tcl-tk')
+how about
+    sh('brew install python-tk')
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/15/25 14:02 PM MST]
+synopsis~: module not found
+
+details:
+
+> paver run
+---> pavement.run
+python3 -m src.game_of_life_gui
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File ".../assign1/src/game_of_life_gui.py", line 1, in <module>
+    import tkinter as tk
+  File ".../python3.13/tkinter/__init__.py", line 38, in <module>
+    import _tkinter # If this fails your Python may not be configured for Tk
+    ^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named '_tkinter'
+
+------------------------------------------------------------------------------
+[Reviewed 02/15/25 13:41 PM MST]
+synopsis~: module not found
+
+details:
+
+> paver run
+---> pavement.run
+python3 -m src.game_of_life_gui
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File ".../assign1/src/game_of_life_gui.py", line 1, in <module>
+    import tkinter as tk
+  File ".../python3.13/tkinter/__init__.py", line 38, in <module>
+    import _tkinter # If this fails your Python may not be configured for Tk
+    ^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named '_tkinter'
+
+------------------------------------------------------------------------------
+[Reviewed 02/15/25 13:28 PM MST]
+synopsis~: red or yellow in code coverage
+
+details:
+
+Please take a look at the code coverage and make sure the coverage shows 100%.
+After fixing the coverage (or ask for help if you need), please ask for review.
+
+------------------------------------------------------------------------------
+[Reviewed 02/15/25 05:47 AM MST]
+synopsis: a few things to improve
+
+details:
+
+Need a better name than gui.py for the file.
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/14/25 16:05 PM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/14/25 15:29 PM MST]
+synopsis: Let us apply SLAP
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/14/25 12:05 PM MST]
+synopsis: let's refactor and move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/14/25 10:57 AM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/14/25 07:19 AM MST]
+synopsis~: let's check the test
+
+details:
+
+Please see suggestions in files.
+
+Please do not use () for return, no use.
+
+------------------------------------------------------------------------------
+[Reviewed 02/13/25 21:38 PM MST]
+synopsis: let's refactor
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/13/25 11:21 AM MST]
+synopsis: let's refactor
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/13/25 10:38 AM MST]
+synopsis: let's take another look at the output
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/13/25 09:44 AM MST]
+synopsis: let's clean up
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/13/25 08:25 AM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/13/25 07:41 AM MST]
+synopsis: let's follow along the tests mentioned
+
+details:
+
+Please see suggestions in files.
+
+Please do not change the method names from what is suggested unless you are actually able to give better names. We are not working with live cells in the next generation. We are working on generating signals for cells given. That is far from alive or dead in the next generation.
+
+------------------------------------------------------------------------------
+[Reviewed 02/12/25 19:45 PM CET]
+synopsis: let's change direction
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/12/25 19:04 PM CET]
+synopsis: sorry if I missed the discussion email
+
+details:
+
+Did I miss the discussion email? Sorry if I did. Could you please resend it?
+
+------------------------------------------------------------------------------
+[Reviewed 02/12/25 03:16 AM CET]
+synopsis: where are we going?
+
+details:
+
+Writing test is not the goal. We need to know where the design is going? Do we know where we are talking the desing? Do we have to good grasp of how we are handling the infinite universe problem? Let's discuss, please drop an email.
+
+------------------------------------------------------------------------------
+[Reviewed 02/11/25 21:26 PM CET]
+synopsis: let's think about it
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/11/25 21:05 PM CET]
+synopsis: what are we designing now?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/11/25 20:04 PM CET]
+synopsis: the universe is infinite
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/11/25 19:11 PM CET]
+synopsis~: good so far
+
+details:
+
+Good so far.
+
+Let's think of the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 02/11/25 09:41 AM CET]
+synopsis~: let's use parameterized tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/11/25 06:53 AM CET]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a review.
+
+Please see https://groups.google.com/g/uhcss25sd/c/vylkltTccEo/m/5CQtkj43AgAJ
+
+------------------------------------------------------------------------------
+[Reviewed 02/11/25 04:34 AM CET]
+synopsis: good so far
+
+details:
+
+Good so far. Let's move forward to the next step
+
+------------------------------------------------------------------------------
+[Reviewed 02/10/25 10:25 AM CET]
+synopsis~: let's think of better way to model
+
+details:
+
+Please see suggestions in files.
+
+
+------------------------------------------------------------------------------
+[Reviewed 02/10/25 08:36 AM CET]
+synopsis: let's simplify
+
+details:
+
+Let's simplify the design further and make it more expressive
+
+------------------------------------------------------------------------------
+[Reviewed 02/10/25 05:50 AM CET]
+synopsis~: let's take small steps
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/10/25 04:07 AM CET]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a review.
+
+Please see https://groups.google.com/g/uhcss25sd/c/vylkltTccEo/m/5CQtkj43AgAJ
+
+At this time, we want to see only the following in the tests.txt file:
+
+x canary test
+
+x a dead cell with zero neighbors stays dead
+
+
+We want to see only the above test implemented, nothing more. Minimum code to make that one test (plus the canary) pass.
+
+------------------------------------------------------------------------------
+[Reviewed 02/09/25 09:35 AM CET]
+synopsis: let's focus on an action or behavior than state
+
+details:
+
+Please do not answer anything in assign1.txt at this time. I have reset the contents of that file.
+
+Let's focus on an action or behavior than state. Please see tests.txt for the first test.
+
+Please delete cell.py, tests directory, and the file in it. Instead, please use the files I have provided as a starting point.
+
+A CI build has been setup for your project.
+You can see files related to this under assign1.
+
+How does this work?
+When you check in code, the CI build machine wakes up, fetches the latest 
+version of your code, and runs the file build.sh that is under your repository (above assign1). That file in turn runs the build scripts in your assign1 directory.
+
+In case you missed it, please read:
+<https://groups.google.com/g/uhcss25sd/c/fDYc_vLkQNQ/m/LdHrDtY9AQAJ>
+
+Also, please keep an eye on code coverage. To view the code coverage, please 
+run the build using the following command (do not click or double click, 
+instead open the command prompt, cd to your assign1 directory, and then run 
+from there).
+
+paver
+Then take a look at the file (using a browser):
+htmlcov/index.html
+
+------------------------------------------------------------------------------

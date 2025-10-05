@@ -1,0 +1,55 @@
+[Reviewed 02/04/25 16:48 PM MST]
+synopsis: you're done
+
+details:
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 02/04/25 05:24 AM MST]
+synopsis~: previous review not addressed
+
+details:
+
+Please see the details in the previous review below (the less is more...).
+
+If we do not take the time to address the feedback we have to slow down to do so.
+
+------------------------------------------------------------------------------
+[Reviewed 02/03/25 06:32 AM MST]
+synopsis: good improvements
+
+details:
+
+Diagram:
+
+Less is more. If we show fields at this level of design we are distracting from the essence. Ask, is seeing the fields in the diagram a distraction from showing the high level details or is it helping. Is showing methods a distraction to see the high level details or heling?
+
+Text:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/02/25 05:48 AM MST]
+synopsis: good start
+
+details:
+
+Diagram:
+
+Please remove the notes part in the diagram. Let's also remove the notes over the connecting lines.
+
+Less is more. If we show fields at this level of design we are distracting from the essence.
+
+Are there any aggregation relationships?
+
+Let us show the cardinality of the relationships unless they are 1.
+
+Les us show a clear separation of the GUI from the logic.
+
+
+Text:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------

@@ -1,0 +1,48 @@
+[Reviewed 01/30/25 05:05 AM MST]
+synopsis: you're done
+
+details:
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 01/29/25 11:16 AM MST]
+synopsis: a few things to improve
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 01/29/25 05:38 AM MST]
+synopsis: let's bring out the essence
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 01/28/25 05:06 AM MST]
+synopsis: good improvements, a few things to revisit
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 01/27/25 05:04 AM MST]
+synopsis: let's revisit the inheritance example and a few other things
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 01/26/25 06:46 AM MST]
+synopsis: good start
+
+details:
+
+Good start. Please see suggestions in files.
+
+------------------------------------------------------------------------------

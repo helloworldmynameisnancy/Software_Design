@@ -1,0 +1,369 @@
+[Reviewed 03/07/25 06:39 AM CST]
+synopsis: you're done
+
+details:
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 03/06/25 13:08 PM EST]
+synopsis: what's the learning from this exercise of edge case?
+
+details:
+
+Let's discuss over email.
+
+------------------------------------------------------------------------------
+[Reviewed 03/06/25 10:46 AM EST]
+synopsis: why change instead of add?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/05/25 05:20 AM EST]
+synopsis: SLAP
+
+details:
+
+Please see suggestions in files.
+
+Please do not call run in build.sh
+
+------------------------------------------------------------------------------
+[Reviewed 03/04/25 21:21 PM EST]
+synopsis: need to check again
+
+details:
+
+Good work.
+
+When I run, I see unknown location. Please run a few times to see if it reports some other location. Please ask for another review and I will check again tomorrow to make sure this is correct.
+
+------------------------------------------------------------------------------
+[Reviewed 03/04/25 04:39 AM MST]
+synopsis: run failed
+
+details:
+
+---> pavement.run
+python3 -m src.output_iss_details
+...
+ModuleNotFoundError: No module named 'geopy'
+
+------------------------------------------------------------------------------
+[Reviewed 03/03/25 05:16 AM MST]
+synopsis: nice work so far
+
+details:
+
+Nice work so far.
+
+------------------------------------------------------------------------------
+[Reviewed 03/02/25 18:54 PM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/02/25 17:16 PM MST]
+synopsis: deprecation warning 
+
+details:
+
+>paver
+...
+DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+
+------------------------------------------------------------------------------
+[Reviewed 03/02/25 15:19 PM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/02/25 11:45 AM MST]
+synopsis: how does it feel?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/02/25 05:00 AM MST]
+synopsis: let's refactor and move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/01/25 16:04 PM MST]
+synopsis: YAGNI
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/01/25 08:29 AM MST]
+synopsis: let's keep it DRY
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/01/25 05:39 AM MST]
+synopsis: let's keep it DRY
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/28/25 17:23 PM MST]
+synopsis: good work so far
+
+details:
+
+Good work so far. Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/28/25 13:44 PM MST]
+synopsis: good work so far
+
+details:
+
+Good work so far. Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/28/25 10:58 AM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/28/25 05:50 AM MST]
+synopsis: let's check on the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/27/25 18:48 PM MST]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a review.
+
+Please see https://groups.google.com/g/uhcss25sd/c/vylkltTccEo/m/5CQtkj43AgAJ
+
+------------------------------------------------------------------------------
+[Reviewed 02/27/25 18:32 PM MST]
+synopsis: premature optimization using parameterized
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/27/25 17:18 PM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/27/25 09:58 AM CST]
+synopsis: what are we looking for?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/27/25 08:24 AM CST]
+synopsis: let's revisit the test
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/27/25 05:55 AM EST]
+synopsis: let's think about the test
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/26/25 05:33 AM EST]
+synopsis: SRP and OCP
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/25/25 22:31 PM EST]
+synopsis: let's change direction
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/25/25 16:19 PM CST]
+synopsis: let's refactor and move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/25/25 13:20 PM MST]
+synopsis~: let's refactor
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/25/25 06:59 AM MST]
+synopsis~: let's check the test
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/25/25 04:55 AM MST]
+synopsis~: red or yellow in code coverage
+
+details:
+
+Please take a look at the code coverage and make sure the coverage shows 100%.
+After fixing the coverage (or ask for help if you need), please ask for review.
+
+------------------------------------------------------------------------------
+[Reviewed 02/24/25 14:11 PM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/24/25 10:23 AM MST]
+synopsis: minimum code to make tests pass
+
+details:
+
+It is hard, but we have to write this on the wall and look at it every time we write code - write minimum code to make tests pass.
+
+------------------------------------------------------------------------------
+[Reviewed 02/24/25 09:19 AM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/24/25 04:48 AM MST]
+synopsis~: let's simplify
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/23/25 18:20 PM MST]
+synopsis: let's simplify and YAGNI
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/23/25 10:14 AM MST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/23/25 09:42 AM MST]
+synopsis: please see previous review
+
+details:
+
+Please see previous review (below).
+
+------------------------------------------------------------------------------
+[Reviewed 02/23/25 09:05 AM MST]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a review.
+
+Please see https://groups.google.com/g/uhcss25sd/c/vylkltTccEo/m/5CQtkj43AgAJ
+
+Also, please avoid using None as much as possible.
+
+Need a blank line between each of the AAA (Arrange, Act, Assert). So, a blank line above self.assertEqual.
+
+Also, exactly one blank line at the bottom of each file.
+
+Minimum code to make the tests pass.
+
+------------------------------------------------------------------------------
+[Reviewed 02/23/25 05:13 AM MST]
+synopsis~: let's simplify
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/22/25 17:12 PM MST]
+synopsis: let's change direction
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/22/25 11:48 AM MST]
+synopsis: let's think of some small steps
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 02/22/25 11:41 AM MST]
+synopsis~:  let's integrate CI
+
+details:                     
+
+No CI yet.
+
+The CI server is not building the current assignment yet. Please fix build.sh to point to current assignment directory to build. If you need help with that please ask.
+
+------------------------------------------------------------------------------

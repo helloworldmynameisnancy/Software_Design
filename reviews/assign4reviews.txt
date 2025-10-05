@@ -1,0 +1,299 @@
+[Reviewed 04/17/25 14:04 PM MDT]
+synopsis: Is it?
+
+details:
+
+Is it Composite or another pattern with similar structure but a different intent?
+
+Any more patterns?
+
+------------------------------------------------------------------------------
+[Reviewed 04/17/25 05:53 AM MDT]
+synopsis: good writing so far
+
+details:
+
+Good writing so far. Any more patterns?
+
+------------------------------------------------------------------------------
+[Reviewed 04/16/25 08:48 AM MDT]
+synopsis: take the time to go over
+
+details:
+
+Please take the time to go over to make sure all looks good.
+
+Let's move forward to questions in assign4.txt
+
+
+------------------------------------------------------------------------------
+[Reviewed 04/16/25 06:59 AM MDT]
+synopsis: what design principle?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/16/25 05:01 AM MDT]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/16/25 04:44 AM MDT]
+synopsis: let's check the directory
+
+details:
+
+Looking at the src directory, looks like we have dumped all files in there. Would we benefit from a better structure of where we store the files?
+
+------------------------------------------------------------------------------
+[Reviewed 04/15/25 19:42 PM MDT]
+synopsis: let's check the test
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/15/25 16:53 PM MDT]
+synopsis: let's think cohesion
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/15/25 14:11 PM MDT]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/15/25 09:33 AM MDT]
+synopsis: what is the consequence?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/15/25 04:36 AM MDT]
+synopsis: let's make the intent clear
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/14/25 21:43 PM MDT]
+synopsis: logic to implement
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/14/25 15:15 PM MDT]
+synopsis: let's refactor
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/14/25 10:27 AM MDT]
+synopsis: let's check on a few things
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/14/25 07:32 AM MDT]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/14/25 07:13 AM MDT]
+synopsis~: let's refactor
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/13/25 19:07 PM MDT]
+synopsis: let's think about it
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/13/25 12:36 PM MDT]
+synopsis: are strings a good way
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/13/25 05:27 AM MDT]
+synopsis: let's take small steps 
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/12/25 09:32 AM MDT]
+synopsis: let's move forward
+
+details:
+
+Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 04/12/25 07:30 AM MDT]
+synopsis: let's check the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/11/25 08:05 AM MDT]
+synopsis: let's check the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/10/25 11:56 AM CDT]
+synopsis: let's look at the test file
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/09/25 16:39 PM CDT]
+synopsis: let's keep it DRY
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/09/25 14:49 PM CDT]
+synopsis: let's keep it DRY
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/09/25 10:44 AM CDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a review.
+
+Please see https://groups.google.com/g/uhcss25sd/c/vylkltTccEo/m/5CQtkj43AgAJ
+
+------------------------------------------------------------------------------
+[Reviewed 04/08/25 12:50 PM CDT]
+synopsis: missing test suite?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/08/25 04:43 AM CDT]
+synopsis: let's move forward
+
+details:
+
+Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 04/07/25 21:12 PM CDT]
+synopsis: let's move forward
+
+details:
+
+Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 04/07/25 04:32 AM CDT]
+synopsis: let's check the test and move forward
+
+details:
+
+Please see suggestions in files.
+
+Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 04/06/25 17:57 PM CDT]
+synopsis: a little tweak and move forward
+
+details:
+
+Please see suggestions in files.
+
+Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 04/06/25 04:47 AM MDT]
+synopsis: nothing significant to review
+
+details:
+
+No significant change found.
+
+------------------------------------------------------------------------------
+[Reviewed 04/06/25 04:41 AM MDT]
+synopsis: let's move forward
+
+details:
+
+Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 04/05/25 21:19 PM MDT]
+synopsis: a few things to check
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/05/25 18:58 PM MDT]
+synopsis: let's rethink about the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 04/05/25 14:13 PM MDT]
+synopsis: let's bring in some details
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------

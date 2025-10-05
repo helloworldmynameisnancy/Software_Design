@@ -1,0 +1,190 @@
+[Reviewed 03/23/25 15:30 PM CDT]
+synopsis: you're done
+
+details:
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 03/23/25 04:56 AM MDT]
+synopsis: almost there
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/22/25 04:53 AM MDT]
+synopsis: it may help to delete and start over the writing part
+
+details:
+
+What we have in place is holding us back to writing well. I sincerely think we can benefit from delete and restart.
+
+Delete the entire written part. Then, jot down on a piece of paper the key topics you want to cover. Then stich those together using fluent words, conversational tone, bringing in the details from the readers' point of view rather than writer's point of view.
+
+------------------------------------------------------------------------------
+[Reviewed 03/21/25 19:39 PM MDT]
+synopsis: please take the time to rework based on the previous feedback
+
+details:
+
+I see change only to the first paragraph. Please apply the feedback to the entire text and we can review after that.
+
+------------------------------------------------------------------------------
+[Reviewed 03/21/25 09:01 AM MDT]
+synopsis: a few things to revisit
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/19/25 18:23 PM PDT]
+synopsis: good work
+
+details:
+
+Good work. Let's move forward to the questions in assign3.txt.
+
+------------------------------------------------------------------------------
+[Reviewed 03/19/25 11:14 AM PDT]
+synopsis: a few things to improve
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/19/25 07:32 AM PDT]
+synopsis: reuse and YAGNI
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/19/25 03:34 AM PDT]
+synopsis: let's write functional
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/18/25 15:17 PM PDT]
+synopsis: let's move forward
+
+details:
+
+Let's move forward to the next set of tests.
+
+------------------------------------------------------------------------------
+[Reviewed 03/18/25 10:24 AM PDT]
+synopsis: a better name?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/18/25 08:16 AM PDT]
+synopsis: let's refactor
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/18/25 05:19 AM PDT]
+synopsis: how does it feel?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/17/25 17:36 PM PDT]
+synopsis: let's keep it DRY
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/17/25 05:16 AM PDT]
+synopsis: let's keep it DRY
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/16/25 15:44 PM PDT]
+synopsis: what do we observe?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/16/25 11:03 AM MDT]
+synopsis: What are the pros and cons?
+
+details:
+
+What are the pros and cons of keeping multiple things in one file? What principles should we be thinking about when we do so?
+
+------------------------------------------------------------------------------
+[Reviewed 03/16/25 04:35 AM MDT]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+Let's move forward to the next set of tests.
+
+------------------------------------------------------------------------------
+[Reviewed 03/15/25 19:26 PM MDT]
+synopsis: what are the consequences?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/15/25 18:51 PM MDT]
+synopsis: code should reveal its intentions
+
+details:
+
+Please see suggestions in files.
+
+Let's discuss. If a number if negative, it's factorial is... - please drop an email about that.
+
+------------------------------------------------------------------------------
+[Reviewed 03/15/25 13:29 PM MDT]
+synopsis: what should it be?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/15/25 11:41 AM MDT]
+synopsis: how does it feel?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 03/15/25 06:04 AM MDT]
+synopsis: how does it feel?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
