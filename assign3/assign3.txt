@@ -1,0 +1,56 @@
+Assign3: Due 11:59PM March 28
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late.
+
+The Factorial of a number is the product of all numbers in the range 1 to the number.
+
+Write three implementations of a function to compute the Factorial of a number.
+
+Please start with one implementation at a time rather than rushing through all of them at the same time.
+
+The implementations are described below:
+
+1. An imperative iteration. 
+  Given a number, loop through using traditional for.
+
+2. A simple recursion.
+  
+3. A functional iteration. 
+	  Use functional internal iterators to perform the operation.
+
+Once you complete coding, please answer the following:
+
+1. What design principles did you use in this assignment? Discuss.
+
+A key part of this assignment was to write DRY code! We achieved that by using a Python decorator for input validation and a base factorial test class for our different factorial implementations.
+
+We also used the YAGNI principle when it came to validating inputs. At first we had the same conditional in each implementation for validation, then moved it to a decorator and removed the redundant conditional so we only added the code we really needed.
+
+During the assignment we wanted to keep our code flexible but focused. We used the OCP principle to make tests easy to add for different factorials and keep input consistent, as well as the SRP to make each factorial implementation focused, putting each in its own module.
+
+2. What design patterns did you use? List each one of them, discuss what this pattern is, and give example(s) of where specifically you used it in this assignment.
+
+The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Each factorial implementation could be seen as its own strategy, allowing us to easily switch between approaches without touching core logic.
+
+The Decorator Pattern adds new behaviors to an object without changing its structure. Using input_validator as a decorator for all the factorial functions ensured consistent input validation, reducing redundancy and improving maintainability. 
+
+The Factory Method Pattern lets subclasses define object creation, promoting flexibility, extensibility, and keeping the code DRY. In our tests, get_factorial_function() in test_base_factorial acts as the factory method and gets overridden in subclasses for different implementations.
+
+3. Any surprises or things that you did not expect?
+
+When we started writing base test files and decorators, we were honestly surprised. Factorial seemed like a really simple function, something we both have coded early on. But by implementing factorial in different ways, we were able to explore and better understand the nuances of the functional and recursive programming paradigms and the value of using base tests + decorators.
+
+Applying the various design principles and patterns showed us how smart decisions are the dividing line between messy code and clean, modular code.
+
+And funny enough, we actually thought Python might need a BigInt for large integer numbers, but nope, Python holds 50! just fine. Super neat language primitive. 
+
+Total [100]: 100
+All tests pass [20]:
+Test quality [20]:
+Coverage [10]:
+Functional solution quality [10]:
+Design quality[20]:
+Code quality[10]:
+Response to questions [10]:
+

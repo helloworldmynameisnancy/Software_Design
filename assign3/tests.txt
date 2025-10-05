@@ -1,0 +1,25 @@
+x canary test
+
+Imperative implementation:
+x factorial for 0
+x factorial for 1
+x factorial for 2
+x factorial for 5
+x factorial for 50
+x factorial for -5
+
+Simple Recursion:
+x factorial for 0
+x factorial for 1
+x factorial for 2
+x factorial for 5
+x factorial for 50
+x factorial for -5
+
+Internal Iterator Implementation:
+x factorial for 0
+x factorial for 1
+x factorial for 2
+x factorial for 5
+x factorial for 50
+x factorial for -5

@@ -1,0 +1,51 @@
+Assign1: Due 11:59PM February 21
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late.
+
+Using Test First Development (no code without test first) implement the problem you designed in hw2. Feel free to evolve that design and use your judgment to make changes based on the improved understanding and learning. You are not required, nor expected, to use all or any part of the design you created in hw2.
+
+Take small steps, ask for frequent reviews.
+
+First start with a tests list (check in a tests.txt file) and a canary test. Implement at most two other tests, in addition to the canary test, and minimum code to make those tests to pass. This is a great first step to complete and ask for a review.
+
+After completing the assignment (and only after) answer the following questions:
+
+1. What did you learn mainly in this assignment?
+
+Throughout this assignment, we learned a lot about how to write code in a test-driven manner and take user interaction into account when writing tests and function signatures. By focusing on writing tests, it made it clear what each piece of functionality should do and provided a sense of direction as we continued with building upon the game.
+
+We learned that simplicity is key, especially early on. Our first commits overcomplicated functions, with next_state and generate_signal_for_a_cells stretching over 5 lines each and at one point combined as one function, making the code harder to read and debug. Focusing on small, clear tasks helped us simplify the functions down to one line each and forced us to add complexity only when needed, saving time in the long run.
+
+In addition, we learned how to apply SLAP in the next_generation function. Initially, the function mixed tasks like counting signals and handling state transitions. By adding the becomes_alive helper function, we focused on one level of abstraction, making the code clearer.
+
+Something else we learned was focusing on writing concise functions not terse functions. While we tried to shorten our functions for simplicity purposes, at some point it became harder to read. We learned that clarity and structure are more important than brevity, leading to more maintainable code.
+
+2. How is your current design different, if at all, from the strategic design created in hw2?
+
+Our current design is very minimal compared to our initial target. We don’t have a Grid class for one, and the GUI and Cells operate entirely differently from what we envisioned at the start with stored state for the next generation. 
+
+Also, instead of reaching for external libraries for testing and GUI (pytest and DearPyGui), we’re relying on builtins (unittest and Tkinter).
+
+3. Were there any surprises or things you did not expect along the way? Any 
+particular problem faced, things you had to tackle that you did not expect 
+beforehand?
+
+The constant feedback loop throughout the assignment was also very helpful in allowing us to write minimal code that met user requirements, so we didn’t make something too bloated and unmaintainable fast. 
+
+Being able to discuss and clarify functional requirements through emails was also very helpful when we couldn’t discern specific details from the review synopsis.
+
+Midway through, we realized the nuance behind setting up and making modifications to a CI/CD system so that software builds and runs consistently across different machine types, since we didn’t realize initially that Tk wasn’t installed on your machine.
+
+
+Total[100]: 100
+
+Program runs[10]:
+Iteration continues showing next generations[10]:
+All tests pass[10]:
+Test quality[20]:
+Code coverage[10]:
+Design quality[20]:
+Code quality[10]:
+Response to questions[10]:
+
