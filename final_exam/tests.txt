@@ -1,0 +1,29 @@
+x canary test
+
+Get Factor Tests:
+x Factor of 1 returns [1]
+x Factor of 2 returns [1, 2]
+x Factor of 6 returns [1, 2, 3, 6]
+x Factor of 30 returns [1, 2, 3, 5, 6, 10, 15, 30]
+x Factor of 500 returns [1, 2, 4, 5, 10, 20, 25, 50, 100, 125, 250, 500]
+
+Get Sum of Factors Tests:
+x Sum of Factors of 1 returns 1
+x Sum of Factors of 2 returns 3
+x Sum of Factors of 6 returns 12
+x Sum of Factors of 30 returns 72
+x Sum of Factors of 500 returns 1092
+
+Get Perfect Numbers:
+x 1 returns []
+x 2 returns []
+x 6 returns [6]
+x 30 returns [6, 28]
+x 500 returns [6, 28, 496]
+
+Count Perfect Numbers:
+x 1 returns 0
+x 2 returns 0
+x 6 returns 1
+x 30 returns 2
+x 500 returns 3
